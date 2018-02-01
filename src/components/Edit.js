@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import ConfirmModal from './subcomponents/ConfirmModal';
-
-// import axios
+import axios from 'axios';
 
 
 class Edit extends Component {
@@ -18,13 +17,51 @@ class Edit extends Component {
         this.no = this.no.bind(this);
     }
 
-    // insert componentWillMount
+    componentWillMount(){
+        axios({
+            method: 'GET',
+            url: '/api/blog/'+this.props.match.params.id
+       }).then (response => {
+        console.log(response)
+       this.setState({title: response.data.title, subTitle: response.data.subTitle, image: response.data.image, text: response.data.text})
+    
+        })
+        .catch(console.log)
+    }
 
     
     // insert updatePost 
-    
+    updatePost(){
+        let body={
+            title: this.state.title,
+            subTitle: this.state.subTitle,
+            image: this.state.image,
+            text: this.state.text
+        }  
+        axios({
+            method: 'PUT',
+            url:'/api/blog/'+this.props.match.params.id,
+            data: body
+        })
+        .then(results=>{
+            this.props.history.push('/search')
+        })
+        .catch(console.log)
+    }
+   
+
 
     // Insert into the deletePost 
+    deletePost() {
+        axios({
+          method: 'DELETE',
+          url: '/api/blogs/'+this.props.match.params.id,
+        }).then (response => {
+            this.props.history.push('/search')})
+        .catch(console.log
+        )
+      }
+
 
     
     render() {

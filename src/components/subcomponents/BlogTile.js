@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class BlogTile extends Component{
+class BlogTitle extends Component{
     
     render(){
         const blog = this.props.blog;
@@ -16,4 +16,4 @@ class BlogTile extends Component{
     }
 }
 
-export default BlogTile;
+export default BlogTitle;

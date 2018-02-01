@@ -1,14 +1,11 @@
 {
   "blogs": [
     {
-      "id": 0,
-      "name": "Andrew Garvin",
-      "userID": 0,
-      "image": "http://delivery.gettyimages.com/xr/109072999.jpg?v=1&c=IWSAsset&k=3&d=77BFBA49EF87892102A727B1636DE2E61B7D42B8BC1F6B9121A86BE89F8F9103331E400E51A7E00DE30A760B0D811297",
       "title": "Ode To Brennys Cow",
       "subTitle": "A Gold-starred Haiku",
-      "text": "Hello.\n\n I'd like to tell the story of Farmer Brenny, and his cow.\n\n Years ago, in the land and time of St. Siaosi, there lived a man named Mr. Brenny. This man was a young peddler, who's only desire was to become a merchant. Though fortune did not always smile upon him, he felt deep within his heart that someday, he would do great things.\n\n On the ten and seventh day, of the seventh month, in the Year of our Lord, two thousand and seventeen, Mr. Brenny's life was about to change. He did not know this, but on this very day, he would meet Mrs. Anne Drue.\n\n Mrs. Drue was a quaint individual, who was looking for someone to run her family's farm, so that she could travel the world. Upon meeting Mr. Brenny, Anne knew that her search was over.\n\n Anne decided to approach Brennys uncle, Lord Lloyd of Alans Mill, with the intent to hire Brenny for the next seven years. Upon signing the contract, Anne and Mr. Brenny were on their way.\n\n Seven years hence, our young adventurers Anne and Mr. Brenny decided to part ways, after the Kings Captain, Lt. Jaime Robberson moved the battleground of the war to their old-town farm.\n\n\nThe end.",
-      "featured": true
+      "image": "http://delivery.gettyimages.com/xr/109072999.jpg?v=1&c=IWSAsset&k=3&d=77BFBA49EF87892102A727B1636DE2E61B7D42B8BC1F6B9121A86BE89F8F9103331E400E51A7E00DE30A760B0D811297",
+      "text": "Hello.asdfasdfasdfadsfasdfadsf\n\n I'd like to tell the story of Farmer Brenny, and his cow.\n\n Years ago, in the land and time of St. Siaosi, there lived a man named Mr. Brenny. This man was a young peddler, who's only desire was to become a merchant. Though fortune did not always smile upon him, he felt deep within his heart that someday, he would do great things.\n\n On the ten and seventh day, of the seventh month, in the Year of our Lord, two thousand and seventeen, Mr. Brenny's life was about to change. He did not know this, but on this very day, he would meet Mrs. Anne Drue.\n\n Mrs. Drue was a quaint individual, who was looking for someone to run her family's farm, so that she could travel the world. Upon meeting Mr. Brenny, Anne knew that her search was over.\n\n Anne decided to approach Brennys uncle, Lord Lloyd of Alans Mill, with the intent to hire Brenny for the next seven years. Upon signing the contract, Anne and Mr. Brenny were on their way.\n\n Seven years hence, our young adventurers Anne and Mr. Brenny decided to part ways, after the Kings Captain, Lt. Jaime Robberson moved the battleground of the war to their old-town farm.\n\n\nThe end.",
+      "id": 0
     },
     {
       "id": 1,
@@ -137,14 +134,11 @@
       "featured": true
     },
     {
-      "id": 14,
-      "name": "Emily Keator",
-      "userID": 2,
-      "image": "https://latimesherocomplex.files.wordpress.com/2015/04/ca-0413-the-avengers-153.jpg",
       "title": "How to De-Bug",
       "subTitle": "Not recommended for Arachnophobes",
-      "text": "Step 1: Obtain a spider egg from a traveler from a distant land. \nStep 2: Raise your spider to a gigantic size over 20-odd years. \nStep 3: When a bug appears in your code, allow the giant spider to go on a rampage and eat every bug in the building. No humans!! Unless they are annoying. \nStep 4: This is really a terrible idea, but at least you will frighten your enemies.",
-      "featured": true
+      "image": "https://latimesherocomplex.files.wordpress.com/2015/04/ca-0413-the-avengers-153.jpg",
+      "text": "Step 1: Obtain a spider egg from a traveler from a distant land. fffffff\nStep 2: Raise your spider to a gigantic size over 20-odd years.\nStep 3: When a bug appears in your code, allow the giant spider to go on a rampage and eat every bug in the building. No humans!! Unless they are annoying. \nStep 4: This is really a terrible idea, but at least you will frighten your enemies.",
+      "id": 14
     },
     {
       "id": 15,
@@ -301,6 +295,42 @@
       "name": "Leo",
       "img": "https://unsplash.it/300/?random",
       "desc": "I'm not real. I'm just a pseudonym of a guy that doesn't like waiting for fast food workers to figure out how to spell his name."
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "name": "Lin",
+      "img": "",
+      "desc": "asdfasdfasd",
+      "id": 15
+    },
+    {
+      "name": "Lin",
+      "img": "",
+      "desc": "asdfasdfasdasdf",
+      "id": 16
+    },
+    {
+      "name": "lin",
+      "img": "",
+      "desc": "",
+      "id": 17
+    },
+    {
+      "name": "Lin Wang",
+      "img": "",
+      "desc": "",
+      "id": 18
+    },
+    {
+      "name": "Lin Wang",
+      "img": "",
+      "desc": "ffffffffffff",
+      "id": 19
     }
   ]
 }

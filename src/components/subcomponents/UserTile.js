@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom'
 
-class UserTile extends Component{
+class UserTitle extends Component{
 
     render(){
 
@@ -17,4 +17,4 @@ class UserTile extends Component{
     }
 }
 
-export default UserTile
+export default UserTitle
